@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "report_name": "Campaign Analytics Report 1",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-14",
+    "report_period_end": "2026-02-13",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 54160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.413Z"
+  },
+  {
+    "id": 2,
+    "report_name": "Investor Insights Report 2",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-13",
+    "report_period_end": "2026-02-12",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 53060000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 3,
+    "report_name": "Campaign Analytics Report 3",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-12",
+    "report_period_end": "2026-02-11",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 52040000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 4,
+    "report_name": "Investor Insights Report 4",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-11",
+    "report_period_end": "2026-02-10",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 51010000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 5,
+    "report_name": "Campaign Analytics Report 5",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-10",
+    "report_period_end": "2026-02-09",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 48350000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 6,
+    "report_name": "Investor Insights Report 6",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-09",
+    "report_period_end": "2026-02-08",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 49515000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 7,
+    "report_name": "Campaign Analytics Report 7",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-08",
+    "report_period_end": "2026-02-07",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 45410000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 8,
+    "report_name": "Investor Insights Report 8",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-07",
+    "report_period_end": "2026-02-06",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 46265000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 9,
+    "report_name": "Campaign Analytics Report 9",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-06",
+    "report_period_end": "2026-02-05",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 43850000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 10,
+    "report_name": "Investor Insights Report 10",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-05",
+    "report_period_end": "2026-02-04",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 42405000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 11,
+    "report_name": "Campaign Analytics Report 11",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-04",
+    "report_period_end": "2026-02-03",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40855000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 12,
+    "report_name": "Investor Insights Report 12",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-03",
+    "report_period_end": "2026-02-02",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41015000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 13,
+    "report_name": "Campaign Analytics Report 13",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-02",
+    "report_period_end": "2026-02-01",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40755000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 14,
+    "report_name": "Investor Insights Report 14",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-01",
+    "report_period_end": "2026-01-31",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 40895000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 15,
+    "report_name": "Campaign Analytics Report 15",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-31",
+    "report_period_end": "2026-01-30",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41135000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 16,
+    "report_name": "Investor Insights Report 16",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-30",
+    "report_period_end": "2026-01-29",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41660000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 17,
+    "report_name": "Campaign Analytics Report 17",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-29",
+    "report_period_end": "2026-01-28",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40945000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 18,
+    "report_name": "Investor Insights Report 18",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-28",
+    "report_period_end": "2026-01-27",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41705000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 19,
+    "report_name": "Campaign Analytics Report 19",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-27",
+    "report_period_end": "2026-01-26",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41595000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 20,
+    "report_name": "Investor Insights Report 20",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-26",
+    "report_period_end": "2026-01-25",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 21,
+    "report_name": "Campaign Analytics Report 21",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-25",
+    "report_period_end": "2026-01-24",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40855000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 22,
+    "report_name": "Investor Insights Report 22",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-24",
+    "report_period_end": "2026-01-23",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41015000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 23,
+    "report_name": "Campaign Analytics Report 23",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-23",
+    "report_period_end": "2026-01-22",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40755000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 24,
+    "report_name": "Investor Insights Report 24",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-22",
+    "report_period_end": "2026-01-21",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 40895000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 25,
+    "report_name": "Campaign Analytics Report 25",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-21",
+    "report_period_end": "2026-01-20",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41135000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 26,
+    "report_name": "Investor Insights Report 26",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-20",
+    "report_period_end": "2026-01-19",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41660000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 27,
+    "report_name": "Campaign Analytics Report 27",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-19",
+    "report_period_end": "2026-01-18",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40945000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 28,
+    "report_name": "Investor Insights Report 28",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-18",
+    "report_period_end": "2026-01-17",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41705000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 29,
+    "report_name": "Campaign Analytics Report 29",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-17",
+    "report_period_end": "2026-01-16",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41595000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 30,
+    "report_name": "Investor Insights Report 30",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-16",
+    "report_period_end": "2026-01-15",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.414Z"
+  },
+  {
+    "id": 31,
+    "report_name": "Campaign Analytics Report 31",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-14",
+    "report_period_end": "2026-02-13",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 54160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 32,
+    "report_name": "Investor Insights Report 32",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-13",
+    "report_period_end": "2026-02-12",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 53060000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 33,
+    "report_name": "Campaign Analytics Report 33",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-12",
+    "report_period_end": "2026-02-11",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 52040000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 34,
+    "report_name": "Investor Insights Report 34",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-11",
+    "report_period_end": "2026-02-10",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 51010000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 35,
+    "report_name": "Campaign Analytics Report 35",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-10",
+    "report_period_end": "2026-02-09",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 48350000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 36,
+    "report_name": "Investor Insights Report 36",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-09",
+    "report_period_end": "2026-02-08",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 49515000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 37,
+    "report_name": "Campaign Analytics Report 37",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-08",
+    "report_period_end": "2026-02-07",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 45410000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 38,
+    "report_name": "Investor Insights Report 38",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-07",
+    "report_period_end": "2026-02-06",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 46265000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 39,
+    "report_name": "Campaign Analytics Report 39",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-06",
+    "report_period_end": "2026-02-05",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 43850000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 40,
+    "report_name": "Investor Insights Report 40",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-05",
+    "report_period_end": "2026-02-04",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 42405000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 41,
+    "report_name": "Campaign Analytics Report 41",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-04",
+    "report_period_end": "2026-02-03",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40855000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 42,
+    "report_name": "Investor Insights Report 42",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-03",
+    "report_period_end": "2026-02-02",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41015000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 43,
+    "report_name": "Campaign Analytics Report 43",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-02",
+    "report_period_end": "2026-02-01",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40755000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 44,
+    "report_name": "Investor Insights Report 44",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-01",
+    "report_period_end": "2026-01-31",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 40895000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 45,
+    "report_name": "Campaign Analytics Report 45",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-31",
+    "report_period_end": "2026-01-30",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41135000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 46,
+    "report_name": "Investor Insights Report 46",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-30",
+    "report_period_end": "2026-01-29",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41660000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 47,
+    "report_name": "Campaign Analytics Report 47",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-29",
+    "report_period_end": "2026-01-28",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40945000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 48,
+    "report_name": "Investor Insights Report 48",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-28",
+    "report_period_end": "2026-01-27",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41705000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 49,
+    "report_name": "Campaign Analytics Report 49",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-27",
+    "report_period_end": "2026-01-26",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41595000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 50,
+    "report_name": "Investor Insights Report 50",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-26",
+    "report_period_end": "2026-01-25",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 51,
+    "report_name": "Campaign Analytics Report 51",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-25",
+    "report_period_end": "2026-01-24",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40855000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 52,
+    "report_name": "Investor Insights Report 52",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-24",
+    "report_period_end": "2026-01-23",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41015000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 53,
+    "report_name": "Campaign Analytics Report 53",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-23",
+    "report_period_end": "2026-01-22",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40755000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 54,
+    "report_name": "Investor Insights Report 54",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-22",
+    "report_period_end": "2026-01-21",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 40895000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 55,
+    "report_name": "Campaign Analytics Report 55",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-21",
+    "report_period_end": "2026-01-20",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41135000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 56,
+    "report_name": "Investor Insights Report 56",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-20",
+    "report_period_end": "2026-01-19",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41660000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 57,
+    "report_name": "Campaign Analytics Report 57",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-19",
+    "report_period_end": "2026-01-18",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40945000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 58,
+    "report_name": "Investor Insights Report 58",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-18",
+    "report_period_end": "2026-01-17",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41705000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 59,
+    "report_name": "Campaign Analytics Report 59",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-17",
+    "report_period_end": "2026-01-16",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41595000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 60,
+    "report_name": "Investor Insights Report 60",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-16",
+    "report_period_end": "2026-01-15",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 61,
+    "report_name": "Campaign Analytics Report 61",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-14",
+    "report_period_end": "2026-02-13",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 54160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 62,
+    "report_name": "Investor Insights Report 62",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-13",
+    "report_period_end": "2026-02-12",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 53060000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 63,
+    "report_name": "Campaign Analytics Report 63",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-12",
+    "report_period_end": "2026-02-11",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 52040000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 64,
+    "report_name": "Investor Insights Report 64",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-11",
+    "report_period_end": "2026-02-10",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 51010000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 65,
+    "report_name": "Campaign Analytics Report 65",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-10",
+    "report_period_end": "2026-02-09",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 48350000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 66,
+    "report_name": "Investor Insights Report 66",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-09",
+    "report_period_end": "2026-02-08",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 49515000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 67,
+    "report_name": "Campaign Analytics Report 67",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-08",
+    "report_period_end": "2026-02-07",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 45410000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 68,
+    "report_name": "Investor Insights Report 68",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-07",
+    "report_period_end": "2026-02-06",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 46265000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 69,
+    "report_name": "Campaign Analytics Report 69",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-06",
+    "report_period_end": "2026-02-05",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 43850000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 70,
+    "report_name": "Investor Insights Report 70",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-05",
+    "report_period_end": "2026-02-04",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 42405000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 71,
+    "report_name": "Campaign Analytics Report 71",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-04",
+    "report_period_end": "2026-02-03",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40855000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 72,
+    "report_name": "Investor Insights Report 72",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-03",
+    "report_period_end": "2026-02-02",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41015000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 73,
+    "report_name": "Campaign Analytics Report 73",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-02",
+    "report_period_end": "2026-02-01",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40755000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 74,
+    "report_name": "Investor Insights Report 74",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-01",
+    "report_period_end": "2026-01-31",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 40895000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 75,
+    "report_name": "Campaign Analytics Report 75",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-31",
+    "report_period_end": "2026-01-30",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41135000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 76,
+    "report_name": "Investor Insights Report 76",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-30",
+    "report_period_end": "2026-01-29",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41660000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.415Z"
+  },
+  {
+    "id": 77,
+    "report_name": "Campaign Analytics Report 77",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-29",
+    "report_period_end": "2026-01-28",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40945000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 78,
+    "report_name": "Investor Insights Report 78",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-28",
+    "report_period_end": "2026-01-27",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41705000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 79,
+    "report_name": "Campaign Analytics Report 79",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-27",
+    "report_period_end": "2026-01-26",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41595000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 80,
+    "report_name": "Investor Insights Report 80",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-26",
+    "report_period_end": "2026-01-25",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 81,
+    "report_name": "Campaign Analytics Report 81",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-25",
+    "report_period_end": "2026-01-24",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40855000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 82,
+    "report_name": "Investor Insights Report 82",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-24",
+    "report_period_end": "2026-01-23",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41015000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 83,
+    "report_name": "Campaign Analytics Report 83",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-23",
+    "report_period_end": "2026-01-22",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40755000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 84,
+    "report_name": "Investor Insights Report 84",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-22",
+    "report_period_end": "2026-01-21",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 40895000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 85,
+    "report_name": "Campaign Analytics Report 85",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-21",
+    "report_period_end": "2026-01-20",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41135000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 86,
+    "report_name": "Investor Insights Report 86",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-20",
+    "report_period_end": "2026-01-19",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41660000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 87,
+    "report_name": "Campaign Analytics Report 87",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-19",
+    "report_period_end": "2026-01-18",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 40945000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 88,
+    "report_name": "Investor Insights Report 88",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-18",
+    "report_period_end": "2026-01-17",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41705000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 89,
+    "report_name": "Campaign Analytics Report 89",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2025-12-17",
+    "report_period_end": "2026-01-16",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 41595000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 90,
+    "report_name": "Investor Insights Report 90",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2025-12-16",
+    "report_period_end": "2026-01-15",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 41160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 91,
+    "report_name": "Campaign Analytics Report 91",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-14",
+    "report_period_end": "2026-02-13",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 54160000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 92,
+    "report_name": "Investor Insights Report 92",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-13",
+    "report_period_end": "2026-02-12",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 53060000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 93,
+    "report_name": "Campaign Analytics Report 93",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-12",
+    "report_period_end": "2026-02-11",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 52040000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 94,
+    "report_name": "Investor Insights Report 94",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-11",
+    "report_period_end": "2026-02-10",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 51010000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 95,
+    "report_name": "Campaign Analytics Report 95",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-10",
+    "report_period_end": "2026-02-09",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 48350000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 96,
+    "report_name": "Investor Insights Report 96",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-09",
+    "report_period_end": "2026-02-08",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 49515000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 97,
+    "report_name": "Campaign Analytics Report 97",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-08",
+    "report_period_end": "2026-02-07",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 45410000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 98,
+    "report_name": "Investor Insights Report 98",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-07",
+    "report_period_end": "2026-02-06",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 46265000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 99,
+    "report_name": "Campaign Analytics Report 99",
+    "report_type": "campaign",
+    "generated_by": 1,
+    "report_period_start": "2026-01-06",
+    "report_period_end": "2026-02-05",
+    "report_data": {
+      "summary": {
+        "total_campaigns": 10,
+        "total_amount": 43850000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  },
+  {
+    "id": 100,
+    "report_name": "Investor Insights Report 100",
+    "report_type": "investor",
+    "generated_by": 1,
+    "report_period_start": "2026-01-05",
+    "report_period_end": "2026-02-04",
+    "report_data": {
+      "summary": {
+        "total_investors": 10,
+        "total_amount": 42405000
+      },
+      "details": []
+    },
+    "export_file_url": null,
+    "generated_at": "2026-02-13T17:45:29.416Z"
+  }
+]
