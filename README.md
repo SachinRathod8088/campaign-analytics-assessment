@@ -1,98 +1,146 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+Campaign Analytics & Investor Insights Dashboard
+👨‍💻 Tech Stack
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+NestJS
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+TypeScript
 
-## Description
+File-based JSON storage (No database)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Jest (Testing)
 
-## Project setup
+📁 Project Structure
+src/
+  campaign-analytics/
+  investor-insights/
+  reports/
+  charts/
+  seed/
+  common/
+assessment/ (input JSON files)
+output/ (generated files)
 
-```bash
-$ npm install
-```
+🚀 Setup Instructions
+1️⃣ Install dependencies
+npm install
 
-## Compile and run the project
+2️⃣ Start server
+npm run start:dev
 
-```bash
-# development
-$ npm run start
 
-# watch mode
-$ npm run start:dev
+Server runs on:
 
-# production mode
-$ npm run start:prod
-```
+http://localhost:3000
 
-## Run tests
+🌱 Generate Sample Data (Important)
 
-```bash
-# unit tests
-$ npm run test
+Before testing APIs, generate data:
 
-# e2e tests
-$ npm run test:e2e
+GET http://localhost:3000/seed-data
 
-# test coverage
-$ npm run test:cov
-```
 
-## Deployment
+This creates:
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+output/campaign-analytics.json (100 records)
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+output/investor-insights.json (100 records)
 
-```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
-```
+output/analytics-reports.json (100 records)
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+📊 Available APIs
+Campaign APIs
 
-## Resources
+GET /campaign-analytics
 
-Check out a few resources that may come in handy when working with NestJS:
+GET /campaign-analytics/campaign/:id
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+GET /campaign-analytics/campaign/:id/trends?days=30
 
-## Support
+POST /campaign-analytics/campaign/:id/calculate
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Investor APIs
 
-## Stay in touch
+GET /campaign-analytics/investors
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+GET /campaign-analytics/investor/:id
 
-## License
+GET /campaign-analytics/investors/top?limit=10
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+POST /campaign-analytics/investor/:id/calculate
+
+Reports APIs
+
+GET /reports
+
+GET /reports/:id
+
+POST /reports/generate
+
+Charts APIs
+
+POST /charts/generate
+
+GET /charts/campaign/:id?days=30
+
+Seed API
+
+GET /seed-data
+
+POST /seed-data
+
+🧮 Formula Implementation
+Campaign Performance
+(funding_progress × 0.6) + (investor_component × 0.4)
+
+
+Capped at 100.
+
+Investor Engagement
+MIN(totalInvestments/10,1)*50 +
+MIN(totalAmount/1000000,1)*50
+
+
+Capped at 100.
+
+Investor Segment
+
+≥ 50L → whale
+
+≥ 5 investments → regular
+
+≥ 2 investments → occasional
+
+else → new
+
+🧪 Run Tests
+npm run test
+
+📌 Notes
+
+Only transactions with status = "invested" are used.
+
+Division-by-zero handled safely.
+
+Scores capped at 100.
+
+Output folder auto-created.
+
+DTO validation enabled globally.
+
+Approach Summary
+
+Implemented modular architecture using NestJS best practices.
+
+Created separate services for Campaign Analytics, Investor Insights, Reports, Charts, and Data Seeding.
+
+Reused business logic in CampaignAnalyticsService and InvestorInsightsService inside SeedService to avoid duplication.
+
+Implemented formulas inside a reusable FormulaHelper.
+
+Used FileReaderService as a centralized file handler for reading/writing JSON files.
+
+Implemented DTO validation using class-validator.
+
+Added comprehensive unit tests with Jest.
+
+Ensured clean architecture and separation of concerns.
