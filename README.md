@@ -1,45 +1,55 @@
-Campaign Analytics & Investor Insights Dashboard
-👨‍💻 Tech Stack
+# 🚀 Campaign Analytics & Investor Insights Dashboard
 
-NestJS
+A modular backend system built with **NestJS + TypeScript** that processes campaign funding data, investor activity, generates analytical reports, and provides chart visualizations — all using file-based JSON storage (no database).
 
-TypeScript
+---
 
-File-based JSON storage (No database)
+## 👨‍💻 Tech Stack
 
-Jest (Testing)
+- **NestJS**
+- **TypeScript**
+- **File-based JSON storage**
+- **Jest (Unit Testing)**
+- **class-validator (DTO Validation)**
 
-📁 Project Structure
+---
+
+## 📂 Project Structure
+
+
 src/
-  campaign-analytics/
-  investor-insights/
-  reports/
-  charts/
-  seed/
-  common/
-assessment/ (input JSON files)
-output/ (generated files)
+│
+├── campaign-analytics/ # Campaign metrics logic
+├── investor-insights/ # Investor metrics logic
+├── reports/ # Report generation module
+├── charts/ # QuickChart integration
+├── seed/ # Sample data generation
+└── common/ # Shared services & helpers
 
-🚀 Setup Instructions
-1️⃣ Install dependencies
+assessment/ # Input JSON files
+output/ # Generated output files
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Install dependencies
+
+```bash
 npm install
-
-2️⃣ Start server
+2️⃣ Run the application
 npm run start:dev
-
-
-Server runs on:
+Application runs at:
 
 http://localhost:3000
 
-🌱 Generate Sample Data (Important)
 
-Before testing APIs, generate data:
+🌱 Generate Sample Data (Important)
+Before testing APIs, generate output data:
 
 GET http://localhost:3000/seed-data
-
-
-This creates:
+This generates:
 
 output/campaign-analytics.json (100 records)
 
@@ -47,100 +57,122 @@ output/investor-insights.json (100 records)
 
 output/analytics-reports.json (100 records)
 
-📊 Available APIs
-Campaign APIs
+📊 Available API Endpoints
 
-GET /campaign-analytics
+🔹 Campaign Analytics
 
-GET /campaign-analytics/campaign/:id
+Method	Endpoint
+GET	/campaign-analytics
+GET	/campaign-analytics/campaign/:id
+GET	/campaign-analytics/campaign/:id/trends?days=30
+POST	/campaign-analytics/campaign/:id/calculate
 
-GET /campaign-analytics/campaign/:id/trends?days=30
 
-POST /campaign-analytics/campaign/:id/calculate
+🔹 Investor Insights
+Method	Endpoint
 
-Investor APIs
+GET	/campaign-analytics/investors
+GET	/campaign-analytics/investor/:id
+GET	/campaign-analytics/investors/top?limit=10
+POST	/campaign-analytics/investor/:id/calculate
 
-GET /campaign-analytics/investors
 
-GET /campaign-analytics/investor/:id
+🔹 Reports
+Method	Endpoint
 
-GET /campaign-analytics/investors/top?limit=10
+GET	/reports
+GET	/reports/:id
+POST	/reports/generate
 
-POST /campaign-analytics/investor/:id/calculate
+Example body for report generation:
 
-Reports APIs
+{
+  "report_type": "campaign",
+  "report_period_start": "2026-01-01",
+  "report_period_end": "2026-01-31"
+}
 
-GET /reports
 
-GET /reports/:id
+🔹 Charts (QuickChart Integration)
+Method	Endpoint
 
-POST /reports/generate
 
-Charts APIs
+POST	/charts/generate
+GET	/charts/campaign/:id?days=30
 
-POST /charts/generate
 
-GET /charts/campaign/:id?days=30
+🔹 Seed Data
+Method	Endpoint
 
-Seed API
+GET	/seed-data
+POST	/seed-data
 
-GET /seed-data
+🧮 Business Logic & Formulas
 
-POST /seed-data
-
-🧮 Formula Implementation
-Campaign Performance
+📈 Campaign Performance Score
 (funding_progress × 0.6) + (investor_component × 0.4)
+Funding Progress = (Raised / Commitment) × 100
+
+Investor Component = (Investors / 50) × 100
+
+Final score capped at 100
+
+📊 Investor Engagement Score
+MIN(totalInvestments/10, 1) × 50 +
+MIN(totalAmount/1000000, 1) × 50
+Score capped at 100
+
+👥 Investor Segment Classification
 
 
-Capped at 100.
+Condition	Segment
+≥ 50,00,000	Whale
+≥ 5 investments	Regular
+≥ 2 investments	Occasional
 
-Investor Engagement
-MIN(totalInvestments/10,1)*50 +
-MIN(totalAmount/1000000,1)*50
 
-
-Capped at 100.
-
-Investor Segment
-
-≥ 50L → whale
-
-≥ 5 investments → regular
-
-≥ 2 investments → occasional
-
-else → new
-
-🧪 Run Tests
+Otherwise	New
+🧪 Running Tests
 npm run test
 
-📌 Notes
+To check coverage:
 
-Only transactions with status = "invested" are used.
+npm run test:cov
 
-Division-by-zero handled safely.
 
-Scores capped at 100.
+🛡️ Data Handling Rules
 
-Output folder auto-created.
+Only transactions with status = "invested" are considered.
 
-DTO validation enabled globally.
+Division-by-zero cases are safely handled.
 
-Approach Summary
+All calculated scores are capped at 100.
 
-Implemented modular architecture using NestJS best practices.
+Output folder is automatically created if missing.
 
-Created separate services for Campaign Analytics, Investor Insights, Reports, Charts, and Data Seeding.
+DTO validation is enabled globally.
 
-Reused business logic in CampaignAnalyticsService and InvestorInsightsService inside SeedService to avoid duplication.
+
+🏗️ Architecture Approach
+
+
+Implemented clean modular architecture using NestJS best practices.
+
+Reused business logic across modules to avoid duplication.
+
+Created a centralized FileReaderService for file operations.
 
 Implemented formulas inside a reusable FormulaHelper.
 
-Used FileReaderService as a centralized file handler for reading/writing JSON files.
+SeedService orchestrates generation of 100 records for each output file.
 
-Implemented DTO validation using class-validator.
+Used dependency injection for maintainability and scalability.
 
-Added comprehensive unit tests with Jest.
+Added comprehensive unit tests to ensure reliability.
 
-Ensured clean architecture and separation of concerns.
+📌 Notes
+This project intentionally avoids using a database and operates entirely on JSON files to demonstrate business logic implementation, modular design, and data processing capabilities in NestJS.
+
+👨‍💼 Author
+Sachin Rathod
+Backend Developer | MCA 2024
